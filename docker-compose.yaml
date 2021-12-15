@@ -1,0 +1,7 @@
+version: "3"
+services:
+ python-app:
+  build: .
+  container_name: Andrey_Shkulipa_DO1821
+  ports:
+   - "5000:5000"
